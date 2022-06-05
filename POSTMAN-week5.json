@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "0736c105-272c-4baf-b34f-347bebc3b311",
+		"name": "POSTMAN-week5",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://lit-headland-92316.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"lit-headland-92316",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "posts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\":\"629c90a65d28bf94e48facdc\",\n    \"content\":\"內容測試6\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://lit-headland-92316.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"lit-headland-92316",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
